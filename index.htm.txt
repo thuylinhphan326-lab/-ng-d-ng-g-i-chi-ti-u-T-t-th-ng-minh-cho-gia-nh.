@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Kế Hoạch Chi Tiêu Tết Thông Minh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🧧 Kế Hoạch Chi Tiêu Tết Thông Minh 2025 🎉</h1>
+    <p class="desc">Nhập số tiền bạn có → Hệ thống sẽ tự chia hợp lý theo từng nhóm, không bao giờ bị lẻ!</p>
+</header>
+
+<!-- Hoa mai, bánh chưng -->
+<div class="decor">
+    <img src="https://i.imgur.com/ZRzVNoo.png" width="120">
+    <img src="https://i.imgur.com/6fZsKtQ.png" width="120">
+    <img src="https://i.imgur.com/khZWfKM.png" width="120">
+</div>
+
+<!-- Ô nhập tiền -->
+<div class="budget-input">
+    <input type="number" id="budget" placeholder="Nhập số tiền (VD: 5000000)">
+    <button onclick="generatePlan()">Tạo kế hoạch</button>
+</div>
+
+<!-- Kết quả -->
+<div id="planContainer" class="cards"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
